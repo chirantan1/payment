@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_BASE_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:5000/api/payment';
+// Updated backend URL
+const API_BASE_URL = process.env.REACT_APP_BACKEND_URL || 'https://payment-rrmv.onrender.com/api/payment';
 
 export const createOrder = async (orderData) => {
     try {
