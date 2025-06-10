@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+html, body, #root, .App {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+.container {
+  border-radius: 1rem;
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 1.5rem;
+  }
+}
